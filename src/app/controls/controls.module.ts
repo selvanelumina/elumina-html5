@@ -5,7 +5,7 @@ import { ControlsComponent } from './controls.component';
 
 
 @NgModule({
-  declarations: [ControlsComponent],
+  declarations: [],
   imports: [
     CommonModule
   ]

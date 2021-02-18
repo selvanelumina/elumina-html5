@@ -3,11 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-controls',
   templateUrl: './controls.component.html',
-  styleUrls: ['./controls.component.css']
 })
 export class ControlsComponent implements OnInit {
 
-  constructor() { }
+  data: any = [];
+
+  constructor() {
+      this.data[0] = 'TextBox';
+      this.data[1] = "DropDown";
+  }
 
   ngOnInit(): void {
   }

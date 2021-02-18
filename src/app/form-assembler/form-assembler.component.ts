@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ControlsComponent } from '../controls/controls.component';
 
 @Component({
   selector: 'app-form-assembler',

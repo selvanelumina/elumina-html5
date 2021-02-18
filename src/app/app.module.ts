@@ -9,20 +9,17 @@ import { FormBuilderViewModule } from './form-builder-view/form-builder-view.mod
 import { FormRendererModule } from './form-renderer/form-renderer.module';
 import { PreviewModule } from './preview/preview.module';
 import { FormAssemblerComponent } from './form-assembler/form-assembler.component';
+import { ControlsComponent } from './controls/controls.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormAssemblerComponent
+    FormAssemblerComponent,
+    ControlsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormAssemblerModule,
-    ControlsModule,
-    FormBuilderViewModule,
-    FormRendererModule,
-    PreviewModule
   ],
   exports: [
     FormAssemblerModule,
