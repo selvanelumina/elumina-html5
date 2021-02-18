@@ -1,2 +1,2 @@
 # elumina-html5
-Drag and Drop using html 5 directives
+Angular machine test - Drag and Drop using html 5 directives
